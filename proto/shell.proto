@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package mrpc.shell;
+
+import "google/protobuf/empty.proto";
+import "event.proto";
+
+service ShellService {
+  rpc QueryRootWindow(google.protobuf.Empty) returns (QueryRootWindowResponse);
+}
+
+message QueryRootWindowResponse {
+  mrpc.Param window = 1;
+}
