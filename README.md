@@ -5,7 +5,7 @@ mikutter_shell
 https://github.com/shibafu528/mshell のサーバーサイド (mikutter側) 実装。詳しくはそちらのREADME.mdを見てください。
 
 ## 依存プラグイン
-- https://github.com/toshia/mrpc
+- https://github.com/shibafu528/mrpc の mshell ブランチ
 
 ## インストール
 ```
